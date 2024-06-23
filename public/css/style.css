@@ -1,52 +1,52 @@
 /* Custom CSS */
 body {
-    background-color: rgb(78,107,171); /* Blue background */
-    color: #ffffff; /* White text color for better contrast */
-    height: 100vh; /* Full viewport height */
+    background-color: rgb(78,107,171); 
+    color: #ffffff; 
+    height: 100vh; 
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .login-container {
-    background-color: #ffffff; /* White background for login container */
-    padding: 2rem; /* Padding around the login form */
-    border-radius: 8px; /* Rounded corners for the container */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
-    width: 100%; /* Max width */
-    max-width: 400px; /* Limit width for readability */
+    background-color: #ffffff; 
+    padding: 2rem; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 100%; 
+    max-width: 400px; 
   }
   .card-header {
-    background-color: #0056b3; /* Darker shade of blue for header */
+    background-color: #0056b3; 
     text-align: center;
-    border-radius: 8px 8px 0 0; /* Rounded top corners */
-    color: #ffffff; /* White text color for header */
+    border-radius: 8px 8px 0 0; 
+    color: #ffffff;
   }
   .login-title {
-    font-weight: 700; /* Heavy font weight */
-    font-size: 2.5rem; /* Larger font size */
-    color: #0056b3; /* Black text color for title */
-    text-align: center; /* Center align text */
+    font-weight: 700; 
+    font-size: 2.5rem; 
+    color: #0056b3; 
+    text-align: center; 
   }
   .btn-login {
-    background-color: #0056b3; /* Darker shade of blue for login button */
+    background-color: #0056b3; 
     border-color: #0056b3;
     font-size: medium;
     font-weight: bold;
      color: #ffffff;
   }
   .btn-login:hover {
-    background-color: #003f7f; /* Even darker shade on hover */
+    background-color: #003f7f; 
     border-color: #003f7f;
   }
   .form-check {
     display: flex;
-    justify-content: space-between; /* Align items with space between */
-    align-items: center; /* Center vertically */
-    margin-bottom: 1rem; /* Bottom margin for spacing */
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 1rem; 
   }
   .forgot-password {
     font-size: 14px;
-    color: #0056b3; /* Bootstrap muted text color */
+    color: #0056b3; 
     text-decoration: none;
   }
   .forgot-password:hover {
@@ -55,16 +55,17 @@ body {
     
   }
   .form-control {
-    color: #000000; /* Black text color for form controls */
+    color: #000000; 
   }
   .form-group label {
-    color: #000000; /* Black text color for labels */}
+    color: #000000; 
+  }
    
   .selectpicker {
-        width: 100%; /* Ensure full width of select */
+        width: 100%; 
       }
       
   .selectpicker option {
-        padding: 10px; /* Padding inside each option */
-        text-align: center; /* Center align text inside options */
+        padding: 10px; 
+        text-align: center; 
       }
